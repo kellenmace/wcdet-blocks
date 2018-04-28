@@ -1,0 +1,23 @@
+.wp-block-wcdet-call-to-action {
+  background: url(https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink.jpg);
+  background-size: cover;
+  text-align: center;
+  .container {
+    margin: 0 13%;
+    padding: 40px 0;
+    color: #fff;
+  }
+  .image {
+    box-shadow: none;
+    margin-bottom: 1.5em;
+  }
+  .message {
+    font-size: 1rem;
+    @media screen and (min-width: 550px) {
+      font-size: 1.3rem;
+    }
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
